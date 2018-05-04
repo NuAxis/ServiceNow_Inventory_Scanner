@@ -2,6 +2,8 @@
 
 This is from the ServiceNow Knowledge18 CreatorCon CCB0793: Flow Designer Enabling Low-Code Solutions: Mobile Inventory Scanner
 
+"Developing a Mobile Phone application for your company's "Yearly Physical Inventory" can turn a nightmare of spreadsheets into a dream. Utilizing the power of Kingston's Flow Designer and the native Mobile UI, any level of Admin / Developer can build a barcode scanning and gps tagging powerhouse of automation."
+
 Use the steps below to fork this application and install it on your own ServiceNow Instance. Since this project is mostly a demo I reccomend you install this on a free personal developer instance to fully test and customize. This application requires the Kingston version of ServiceNow or newer to be installed on too function properly.
 
 1. If you have a GitHub account, log in. If you do not have an account, create an account and log in.
@@ -21,3 +23,5 @@ Use the steps below to fork this application and install it on your own ServiceN
 12. In the Load Application dialog, click the link to the "Physical Inventory" application to open it for editing in Studio.
   
 You have now installed this application and can use it in your instance. 
+
+Please contact casey.barela@nuaxis.com with any questions.
