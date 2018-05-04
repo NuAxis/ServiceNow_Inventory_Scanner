@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Scan Log" max_length="40" name="x_177640_physical_scan" type="collection">
+        <element attributes="barcode=true" label="Asset" mandatory="true" max_length="32" name="asset_tag" reference="alm_hardware" type="reference"/>
+        <element label="Comments" mandatory="true" max_length="99" name="condition_comments" type="string"/>
+        <element attributes="current_location" label="GeoLocation" mandatory="true" max_length="99" name="gps_location" type="string"/>
+        <element calculation="&quot;http://maps.google.com/maps?q=&quot; + current.gps_location" label="Map Link" max_length="99" name="map_link" type="url" virtual="true"/>
+        <element calculation="current.asset_tag.asset_tag + &quot; - &quot; + current.sys_created_on" label="Name" max_length="40" name="name" type="string" virtual="true"/>
+        <element label="Location" mandatory="true" max_length="32" name="site_location" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="asset_tag"/>
+        </index>
+        <index name="index2">
+            <element name="site_location"/>
+        </index>
+    </element>
+</database>

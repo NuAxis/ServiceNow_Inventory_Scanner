@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>d8b107af4f22030057541b818110c7a9</plan_id>
+        <snapshot>786547bc4f32030057541b818110c763</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-26 19:59:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dd7207ef4f22030057541b818110c736</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>9d7207ef4f22030057541b818110c734</sys_name>
+        <sys_package display_value="Physical Inventory" source="x_177640_physical">5ce53e674f22030057541b818110c779</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Physical Inventory">5ce53e674f22030057541b818110c779</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_dd7207ef4f22030057541b818110c736</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-30 17:24:21</sys_updated_on>
+        <trigger display_value="">9d7207ef4f22030057541b818110c734</trigger>
+    </sys_flow_trigger_plan>
+</record_update>
