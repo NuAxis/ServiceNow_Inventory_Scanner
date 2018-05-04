@@ -4,7 +4,7 @@
         <element attributes="barcode=true" label="Asset" mandatory="true" max_length="32" name="asset_tag" reference="alm_hardware" type="reference"/>
         <element label="Comments" mandatory="true" max_length="99" name="condition_comments" type="string"/>
         <element attributes="current_location" label="GeoLocation" mandatory="true" max_length="99" name="gps_location" type="string"/>
-        <element calculation="&quot;http://maps.google.com/maps?q=&quot; + current.gps_location" label="Map Link" max_length="99" name="map_link" type="url" virtual="true"/>
+        <element calculation="&quot;http://maps.google.com/maps?q=&quot; + current.gps_location" hint="This will show the link to where the Asset was located when scanned." label="Map Link" max_length="99" name="map_link" type="url" virtual="true"/>
         <element calculation="current.asset_tag.asset_tag + &quot; - &quot; + current.sys_created_on" label="Name" max_length="40" name="name" type="string" virtual="true"/>
         <element label="Location" mandatory="true" max_length="32" name="site_location" reference="cmn_location" type="reference"/>
         <index name="index">

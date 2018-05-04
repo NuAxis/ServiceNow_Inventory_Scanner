@@ -4,7 +4,7 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>map_link</element>
             <help/>
-            <hint/>
+            <hint>This will show the link to where the Asset was located when scanned.</hint>
             <label>Map Link</label>
             <language>en</language>
             <name>x_177640_physical_scan</name>
@@ -14,7 +14,7 @@
             <sys_created_on>2017-11-26 19:26:24</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>f5fa7e6b4f22030057541b818110c766</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>Map Link</sys_name>
             <sys_package display_value="Physical Inventory" source="x_177640_physical">5ce53e674f22030057541b818110c779</sys_package>
             <sys_policy/>
@@ -22,7 +22,7 @@
             <sys_scope display_value="Physical Inventory">5ce53e674f22030057541b818110c779</sys_scope>
             <sys_update_name>sys_documentation_x_177640_physical_scan_map_link_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-26 19:26:24</sys_updated_on>
+            <sys_updated_on>2018-05-04 22:46:42</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
